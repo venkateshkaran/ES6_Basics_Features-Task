@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        <!--Rewrite code with let and const. -->
+        var age = 20;
+        age = 21;
+        const name = "sam";
+        //name = "rashideen"// this shows a error
+        console.log(age)
+
+        console.log(name)
+
+        <!--Use template literals with variables. -->
+
+        <!--``-->
+        var movie = `Fast and Furious`
+        console.log(movie);
+
+        <!--''-->
+        var bike = 'yamaha'
+        console.log(bike);
+        <!----------------------->
+        <!--default parameter values-->
+
+        function greet(name = "guest") {
+            console.log(`hello ${name}`);
+        }
+        greet("sam")
+        greet();
+
+    </script>
+</body>
+
+</html>
